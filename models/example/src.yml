@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: dbt_mkhan_raw
+    tables:
+      - name: green_tripdata_2021_07
+      - name: taxi_zone_lookup
