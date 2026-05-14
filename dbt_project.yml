@@ -40,3 +40,6 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+seeds: 
+  my_new_project:
+    +schema: raw
